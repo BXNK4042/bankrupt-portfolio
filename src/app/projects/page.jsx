@@ -1,14 +1,11 @@
 import React from 'react'
-import Nav from "../components/nav"
-import Footer from "../components/footer"
 import Image from "next/image"
 import notFound from "../../../public/not_found.png"
 
 function page() {
   return (
     <div>
-      <Nav></Nav>
-      <div className='mx-50'>
+      <div className='mx-50 my-15'>
         <div className=''>
           <h1>Projects</h1>
           <div className='m-10'>
@@ -42,7 +39,6 @@ function page() {
           </div>
         </div>
       </div>
-      <Footer></Footer>
     </div>
   )
 }
