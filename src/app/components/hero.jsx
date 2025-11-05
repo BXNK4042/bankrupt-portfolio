@@ -19,7 +19,7 @@ function hero() {
             </div>
         </div>
         <div className='flex w-1/2 justify-center'>
-            <img className='w-70 h-70 rounded-full' src="me.jpeg" alt="" />
+            <img className='shadow-2xl w-70 h-70 rounded-full' src="me.jpeg" alt="" />
         </div>
     </div>
   )
