@@ -6,7 +6,7 @@ function about_2() {
         <div className='flex justify-center items-center w-1/2 h-150'>
           <img className='shadow-2xl rounded-full w-100 h-100' src="kid.jpeg" alt="" />
         </div>
-        <div className='shadow-xl rounded-3xl w-1/2 bg-blue-50'>
+        <div className='shadow-md rounded-3xl w-1/2 bg-blue-50'>
           <div className='m-10'>
             <p>— about me</p>
             <div className='flex'>
