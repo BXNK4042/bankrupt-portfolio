@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import Mail from '../../../public/gmail.svg'
-import Github from '../../../public/github.svg'
-import LinkedIn from '../../../public/linkedin.svg'
+import Mail from '../../../../public/gmail.svg'
+import Github from '../../../../public/github.svg'
+import LinkedIn from '../../../../public/linkedin.svg'
 
 function page() {
   return (

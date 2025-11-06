@@ -7,9 +7,9 @@ function nav() {
         <p className='font-bold text-xl'>Bankrupt</p>
         <ul className='flex items-center justify-center font-semi-bold space-x-10'>
             <li className='hover:underline'><Link href="/">Home</Link></li>
-            <li className='hover:underline'><Link href="/pages/about-page">About</Link></li>
-            <li className='hover:underline'><Link href="/pages/projects-page">Projects</Link></li>
-            <li className='hover:underline'><Link href="/pages/contact">Contact</Link></li>
+            <li className='hover:underline'><Link href="/about">About</Link></li>
+            <li className='hover:underline'><Link href="/projects">Projects</Link></li>
+            <li className='hover:underline'><Link href="/contact">Contact</Link></li>
         </ul>
     </div>
   )

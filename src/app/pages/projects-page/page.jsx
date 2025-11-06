@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-import notFound from "../../../public/not_found.png"
+import notFound from "../../../../public/not_found.png"
 
 function page() {
   return (
