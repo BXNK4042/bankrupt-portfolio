@@ -1,6 +1,6 @@
 import React from 'react'
 
-function about_2() {
+function page() {
   return (
     <div className='flex justify-between mx-40 my-20'>
         <div className='flex justify-center items-center w-1/2 h-150'>
@@ -44,4 +44,4 @@ function about_2() {
   )
 }
 
-export default about_2
+export default page
