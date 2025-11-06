@@ -15,11 +15,11 @@ function nav_2() {
   return (
     <nav className='p-4'>
       <div className="flex items-center justify-between">
-        <p className='text-2xl font-bold'>Bankrupt</p>
+        <p className='text-xl font-bold'>Bankrupt</p>
 
         <div className='md:hidden'>
           <button id='menu-toggle' onClick={toggleMenu}>
-            <Image src={Menu} width={50} height={50}></Image>
+            <Image src={Menu} width={40} height={40} alt={"menu-icon"}></Image>
           </button>
         </div>
 
@@ -33,7 +33,7 @@ function nav_2() {
       </div>
 
       {isMenuOpen ? (
-        <ul className='bg-white py-6 flex-col md:hidden space-y-5 text-xl'>
+        <ul className='bg-white py-6 flex-col md:hidden space-y-5 text-lg'>
           <li className='hover:underline'><Link href="/">Home</Link></li>
           <li className='hover:underline'><Link href="/pages/about-page">About</Link></li>
           <li className='hover:underline'><Link href="/pages/projects-page">Projects</Link></li>
