@@ -13,7 +13,7 @@ function nav() {
     }
 
     return (
-    <div className='border py-3'>
+    <div className='py-3'>
         <div className='flex justify-between items-center mx-10'>
             <h1 className='text-xl font-bold'>Bankrupt</h1>
             <Image src={Menu} alt='Menu-Button' onClick={toggleMenu}></Image>
